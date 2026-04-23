@@ -1,4 +1,4 @@
-#FITSync API
+# FITSync API
 
 ## 🚀 Features
 
