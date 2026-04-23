@@ -1,18 +1,43 @@
-FITSync API:
+#FITSync API
 
-FEATURES:
-JWT-Based Authentication: Stateless aur secure login functionality JSON Web Tokens use karke.
+## 🚀 Features
 
-Workout Logging: Activity track karne ke points like exercise type, duration, aur calories burned.
+### 🔐 JWT-Based Security
+Implemented stateless authentication and authorization using **JSON Web Tokens (JWT)** integrated with **Spring Security** to ensure secure and scalable access control.
 
-Health Recommendations: Activites ke basis par personalized fitness tips aur suggestions.
+### 🏋️ Fitness Activity Tracking
+Provides RESTful endpoints to log and manage workouts, including:
+- Activity type  
+- Duration  
+- Calories burned  
 
-Automated Auditing: Hibernate annotations se created_at aur updated_at timestamps ka automatic management.
+### 🎯 Personalized Recommendations
+Generates tailored health and fitness suggestions based on user activity data to improve engagement and outcomes.
 
-RBAC (Role-Based Access Control): USER aur ADMIN roles ke liye alag-alag permissions.
+### 👥 Role-Based Access Control (RBAC)
+Implements fine-grained access control with distinct roles:
+- **USER** – Access to personal activity and recommendations  
+- **ADMIN** – Elevated privileges for system management  
 
-Interactive API Docs: Swagger/OpenAPI support jisse endpoints ko browse aur test karna easy ho jata hai.
+### 🕒 Automated Auditing
+Uses Hibernate annotations to automatically manage:
+- `created_at` timestamps  
+- `updated_at` timestamps  
 
-Dockerized Environment: Pure application ki containerization taaki "it works on my machine" wala scene khatam ho jaye.
+### 📄 Interactive API Documentation
+Integrated **Swagger UI / OpenAPI 3.0** for:
+- Real-time API testing  
+- Clear and structured endpoint documentation  
 
-Cloud Ready: Direct Render aur Neon DB (PostgreSQL) par deploy karne ke liye optimized.
+### 🐳 Docker Containerization
+Fully containerized using Docker to ensure:
+- Consistent environments across development and production  
+- Easy deployment and scalability  
+
+### ☁️ Cloud Optimized
+Designed for seamless deployment on **Render**, using **Neon DB (PostgreSQL)** as a cloud-native database solution.
+
+### 🧱 Clean Architecture
+Follows best practices using the **DTO (Data Transfer Object)** pattern to:
+- Decouple database and presentation layers  
+- Improve maintainability and scalability  
